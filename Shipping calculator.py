@@ -13,7 +13,7 @@ while (cont!= "n"): #External while to control execution repetitions.
     while (num <= 0):
         #Exception if invalid number.
         print("You must enter a positive number. Please try again.\n")
-        num = input("Cost of items ordered: ")
+        num = float(input("Cost of items ordered: "))
 
     #pricing conditions as marked in the table.
     if num<=30.00:
